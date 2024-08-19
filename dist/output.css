@@ -562,24 +562,16 @@ video {
   grid-column: span 9 / span 9;
 }
 
-.col-span-full {
-  grid-column: 1 / -1;
+.row-span-2 {
+  grid-row: span 2 / span 2;
 }
 
-.col-span-2 {
-  grid-column: span 2 / span 2;
+.row-span-4 {
+  grid-row: span 4 / span 4;
 }
 
-.row-span-8 {
-  grid-row: span 8 / span 8;
-}
-
-.row-span-12 {
-  grid-row: span 12 / span 12;
-}
-
-.row-span-full {
-  grid-row: 1 / -1;
+.row-span-6 {
+  grid-row: span 6 / span 6;
 }
 
 .mx-auto {
@@ -587,16 +579,12 @@ video {
   margin-right: auto;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
 .mt-1 {
   margin-top: 0.25rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .flex {
@@ -607,12 +595,12 @@ video {
   display: grid;
 }
 
-.h-12 {
-  height: 3rem;
-}
-
 .h-24 {
   height: 6rem;
+}
+
+.h-248 {
+  height: 62rem;
 }
 
 .h-8 {
@@ -623,33 +611,8 @@ video {
   height: 100%;
 }
 
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.h-auto {
-  height: auto;
-}
-
-.h-4 {
-  height: 1rem;
-}
-
-.h-6 {
-  height: 1.5rem;
-}
-
-.h-120 {
-  height: 30rem;
-}
-
-.h-80 {
-  height: 20rem;
-}
-
-.h-72 {
-  height: 18rem;
+.w-184 {
+  width: 46rem;
 }
 
 .w-192 {
@@ -676,29 +639,8 @@ video {
   width: 100vw;
 }
 
-.w-184 {
-  width: 46rem;
-}
-
-.w-fit {
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.w-12 {
-  width: 3rem;
-}
-
 .cursor-pointer {
   cursor: pointer;
-}
-
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .grid-cols-12 {
@@ -709,16 +651,8 @@ video {
   grid-template-rows: repeat(12, minmax(0, 1fr));
 }
 
-.items-start {
-  align-items: flex-start;
-}
-
 .items-center {
   align-items: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
 }
 
 .justify-center {
@@ -745,6 +679,10 @@ video {
   gap: 1rem;
 }
 
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 .rounded-md {
   border-radius: 0.375rem;
 }
@@ -753,14 +691,14 @@ video {
   border-width: 2px;
 }
 
-.border-red-300 {
-  --tw-border-opacity: 1;
-  border-color: rgb(252 165 165 / var(--tw-border-opacity));
-}
-
 .border-amber-300 {
   --tw-border-opacity: 1;
   border-color: rgb(252 211 77 / var(--tw-border-opacity));
+}
+
+.border-red-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(252 165 165 / var(--tw-border-opacity));
 }
 
 .bg-lime-500 {
@@ -770,10 +708,6 @@ video {
 
 .p-3 {
   padding: 0.75rem;
-}
-
-.pt-2 {
-  padding-top: 0.5rem;
 }
 
 .pt-1 {
@@ -806,10 +740,6 @@ video {
 
 .font-light {
   font-weight: 300;
-}
-
-.font-extralight {
-  font-weight: 200;
 }
 
 .text-white {
