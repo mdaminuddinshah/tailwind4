@@ -6,6 +6,7 @@
     <title>Document</title>
     <link href="output.css" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="grocery.js" defer></script>
 </head>
 <body class="bg-gray-200 overflow-x-hidden">
      
@@ -87,7 +88,7 @@
                 <a class="cursor-pointer">Vegetables</a>
             </div>
         </div>
-
+ 
     </div>
 
     <!-- header -->
@@ -161,9 +162,34 @@
                 </div>
                
             </div>
-            <div class="col-span-9 row-span-4 border-red-300 border-2">02</div>
+
+            <!-- 2 -->
+            <div class="overflow-y-hidden relative col-span-9 row-span-4 border-red-300 border-2">
+                
+                <!-- img -->
+                    <div id="list" class="overflow-x-hidden absolute flex flex-row w-fit h-fit">
+                        <img class="lists w-full h-full" src="../images/bg-1.png">
+                        <img class="lists w-full h-full" src="../images/bg-2.png">
+                        <img class="lists w-full h-full" src="../images/bg-3.png">
+
+                    </div>
+                
+
+                <!-- prev -->
+                <div id="prev" class="hover:bg-lime-700 duration-1000 bg-lime-500 px-1 rounded-md text-white text-2xl absolute top-[45%] left-2 ">
+                    <i class='bx bx-chevron-left'></i>
+                </div>
+
+                <!-- next -->
+                <div id="next" class="hover:bg-lime-700 duration-1000 bg-lime-500 px-1 rounded-md text-white text-2xl absolute top-[45%] right-2 ">
+                    <i class='bx bx-chevron-right'></i>
+                </div>
+            </div>
+            
             <div class="col-span-3 row-span-3   border-amber-300 border-2">03</div>
-            <div class="col-span-9 row-span-2 border-red-300 border-2">04</div>
+            <div class="col-span-9 row-span-2 border-red-300 border-2">
+                
+            </div>
             <div class="col-span-9 row-span-4 border-amber-300 border-2">05</div>
             <div class="col-span-3 row-span-4 border-red-300 border-2">06</div>
             <div class="col-span-9 row-span-2 border-red-300 border-2">07</div>
